@@ -59,19 +59,45 @@
         </article>
     </section>
 
+    <section id="habilidades">
+
+        <h2>Habilidades e Tecnologias</h2>
+
+        <Table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>HTML</th>
+                    <th>Iniciante</th>
+                    <th>Capaz de criar estruturas de paginas web semânticas e responsivas.</th>
+                </tr>
+
+                <tr>
+                    <th>CSS</th>
+                    <th>Intermedirário</th>
+                    <th>Experiência com flexbox, grid e animações CSS.</th>
+                </tr>
+
+                <tr>
+                    <th>Java Script</th>
+                    <th>Básico</th>
+                    <th>Desenvolvimento de scripts do lado cliente para interações.</th>
+                </tr>
+            </tbody>
+        </Table>
+
+    </section>
+
     <footer>
 
         <p>Direitos Reservados a Kauã Mateus de Góes.</p>
-
-        <Section id="Contato">
-            <h2>Contato</h2>
-
-            <p>Tem um projeto em mente ? Entre em contato !</p>
-
-            <address> <!--ADDRESS é para colocarmos o endereço de e-mail-->
-                E-mail: <a href="mailto: kauamateus.19112002@gmail.com">kauamateus.19112002@gmail.com</a>  <br>
-                Telefone: <a href="tel:+5547999510603">47 99951-0603</a>
-            </address>
 
             <form action="">
 
@@ -101,6 +127,51 @@
                 <input type="date">
             </form>
         </Section>
+
+        <section id="inscrição">
+            <form action="">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome"><br>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" name="idade"><br>
+
+                <label for="materiaEscolhida">Matéria Escolhida</label>
+                <select name="materiaEscolhida" id="materiaEscolhida">
+                      <option value="matematica">Matemática</option>
+                      <option value="portugues">Português</option>
+                      <option value="biologia">Biologia</option>
+                      <option value="ciencias">Ciencias</option>
+                      <option value="historia">Historia</option>
+                      <option value="geografia">Geografia</option>
+                      <option value="artes">Artes</option>
+                </select><br>
+
+                <input type="checkbox" id="turno" name="turno">
+                <label for="turno">Manhã</label> 
+
+                <input type="checkbox" id="turno" name="turno">
+                <label for="turno">Tarde</label> 
+
+                <input type="checkbox" id="turno" name="turno">
+                <label for="turno">Noite</label> 
+
+                <label for="materiaEscolhida">Matéria Escolhida</label>
+                <select name="materiaEscolhida" id="materiaEscolhida">
+                      <option value="ensinoSuperiorCompleto">Matemática</option>
+                      <option value="cursandoMestrado">Português</option>
+                      <option value="mestradoCompleto">Biologia</option>
+                      <option value="cursandoDoutorado">Ciencias</option>
+                      <option value="doutoradoCompleto">Historia</option>
+                </select><br>
+
+                <label for="altodescricao">Descrição sobre si mesmo.</label>
+                <textarea name="altodescricao" id="altodescricao" cols="20" rows="5"></textarea> <br>
+            </form>
+        </section>
     </footer>
 </body>
 
